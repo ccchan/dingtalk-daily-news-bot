@@ -13,12 +13,12 @@ $lunar = $lunar->convertSolarToLunar(date('Y'), date('m'), date('d'));
 $data = [
     'msgtype' => 'markdown',
     'markdown' => [
-        'title' => '炉石早报',
+        'title' => 'YY早报',
         'text' => ''
     ]
 ];
 $message = [ // 消息详情
-    '各位炉石科技的伙伴们早上好！'
+    '各位YY群的伙伴们早上好！'
 ];
 
 /**
