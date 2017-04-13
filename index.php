@@ -62,7 +62,7 @@ $message[] = '【每日名言】';
  * 每日一言
  * 文档：http://avatardata.cn/Docs/Api/5bc6f2a4-927c-415f-80ae-8772b76c8c73
  */
-const MINGYAN = 'http://api.avatardata.cn/MingRenMingYan/Random?key=xxxxxx'; // TODO: 请自行获取
+const MINGYAN = 'http://api.avatardata.cn/MingRenMingYan/Random?key=c4dfeac2644346b98e313f9b0bc984b6'; // TODO: 请自行获取
 $c = new Curl(MINGYAN);
 $json = json_decode($c->get(), TRUE);
 if($json === NULL || $json['error_code'] != 0){
