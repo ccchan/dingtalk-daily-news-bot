@@ -1,7 +1,7 @@
 <?php
 // 钉钉群机器人webhook地址
 // 文档：https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.ytx9m4&treeId=257&articleId=105735&docType=1
-const WEBHOOK = 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxx'; // TODO: 请自行获取
+const WEBHOOK = 'https://oapi.dingtalk.com/robot/send?access_token=3537abebb2ff89817c94bfbd39d696e39dd67b67dfd8041987792fbd713794c7'; // TODO: 请自行获取
 require __DIR__.'/Curl.php';
 
 // 获取农历日期
