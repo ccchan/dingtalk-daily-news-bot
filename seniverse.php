@@ -5,8 +5,8 @@
  */
 
 // 心知天气接口调用凭据
-$key = '4r9bergjetiv1tsd'; // 测试用 key，请更换成您自己的 Key
-$uid = 'U785B76FC9'; // 测试用 用户ID，请更换成您自己的用户ID
+$key = '56z3zvsoqxcankqx'; // 测试用 key，请更换成您自己的 Key
+$uid = 'U03B31F9B6'; // 测试用 用户ID，请更换成您自己的用户ID
 // 参数
 $api = 'https://api.thinkpage.cn/v3/weather/daily.json'; // 接口地址
 $location = '深圳'; // 城市名称。除拼音外，还可以使用 v3 id、汉语等形式
